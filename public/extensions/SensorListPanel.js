@@ -26,10 +26,7 @@ export class SensorListPanel extends Autodesk.Viewing.UI.PropertyPanel {
             layout: 'fitColumns',
             groupBy: 'group',
             columns: [
-            // { title: 'ID', field: 'dbid' },
-            // { title: 'Name', field: 'name', width: 150 },
-            // { title: 'Volume', field: 'volume', hozAlign: 'left', formatter: 'progress' },
-            // { title: 'Material', field: 'material' }
+
             ]
         });
         this.table.on('rowClick', (ev, row) => {
